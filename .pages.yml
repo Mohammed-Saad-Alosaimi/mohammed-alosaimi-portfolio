@@ -16,7 +16,7 @@ content:
   - name: portfolio
     label: Portfolio content
     type: file
-    path: content/portfolio.json
+    path: public/content/portfolio.json
     format: json
     fields:
       - name: site
@@ -151,4 +151,3 @@ content:
 settings:
   commit:
     message: "content: update portfolio from Pages CMS"
-
