@@ -1,0 +1,154 @@
+media:
+  - name: images
+    label: Images and visual work
+    input: public/assets
+    output: /assets
+    rename: safe
+    categories: [image, video]
+  - name: documents
+    label: Public documents
+    input: public/downloads
+    output: /downloads
+    rename: safe
+    categories: [document]
+
+content:
+  - name: portfolio
+    label: Portfolio content
+    type: file
+    path: content/portfolio.json
+    format: json
+    fields:
+      - name: site
+        label: Main information
+        type: object
+        fields:
+          - { name: name, label: Full name, type: string, required: true }
+          - { name: portfolioLabel, label: Portfolio label, type: string }
+          - { name: eyebrow, label: Professional specialties, type: text }
+          - { name: role, label: Current professional title, type: string }
+          - { name: intro, label: Introduction, type: text }
+          - { name: email, label: Email, type: string }
+          - { name: location, label: Location, type: string }
+          - name: heroImage
+            label: Main image
+            type: image
+            options: { media: images, path: profile }
+      - name: theme
+        label: Visual theme
+        type: object
+        fields:
+          - { name: background, label: Background color, type: string }
+          - { name: surface, label: Card color, type: string }
+          - { name: accent, label: Accent color, type: string }
+          - { name: text, label: Text color, type: string }
+      - name: navItems
+        label: Navigation menu
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{label}" } }
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: href, label: Section link, type: string }
+      - { name: tags, label: Professional tags, type: string, list: true }
+      - name: stats
+        label: Key impact indicators
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{value} — {label}" } }
+        fields:
+          - { name: value, label: Value, type: string }
+          - { name: label, label: Description, type: string }
+      - { name: about, label: About, type: text }
+      - name: expertise
+        label: Areas of expertise
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{number} — {title}" } }
+        fields:
+          - { name: number, label: Number, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Description, type: text }
+      - name: projects
+        label: Projects
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{number} — {title}" } }
+        fields:
+          - { name: number, label: Number, type: string }
+          - { name: category, label: Category, type: string }
+          - { name: title, label: Project title, type: string }
+          - { name: summary, label: Summary, type: text }
+          - { name: role, label: Role, type: string }
+          - { name: result, label: Result, type: string }
+          - { name: logo, label: Logo or project image, type: image, options: { media: images, path: projects } }
+          - { name: className, label: Display style, type: string }
+      - name: trainings
+        label: Training programs
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{title}" } }
+        fields:
+          - { name: eyebrow, label: Context, type: string }
+          - { name: title, label: Program title, type: string }
+          - { name: image, label: Cover image, type: image, options: { media: images, path: training } }
+          - { name: text, label: Description, type: text }
+          - { name: meta, label: Highlights, type: string, list: true }
+          - { name: href, label: Training file, type: file, options: { media: documents, extensions: [pdf] } }
+      - name: designWorks
+        label: Design work
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{title}" } }
+        fields:
+          - { name: src, label: Design image, type: image, options: { media: images, path: designs } }
+          - { name: title, label: Title, type: string }
+          - { name: type, label: Work type, type: string }
+          - { name: className, label: Display style, type: string }
+      - name: directCollaborations
+        label: Direct collaborations
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{organization}" } }
+        fields:
+          - { name: organization, label: Organization, type: string }
+          - { name: scope, label: Scope of collaboration, type: text }
+      - name: relations
+        label: Organizations and commercial relationships
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{name}" } }
+        fields:
+          - { name: name, label: Organization name, type: string }
+          - { name: src, label: Logo, type: image, options: { media: images, path: relations } }
+      - name: credentialGroups
+        label: Qualifications and credentials
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{title}" } }
+        fields:
+          - { name: title, label: Group title, type: string }
+          - { name: items, label: Items, type: string, list: true }
+      - name: experiences
+        label: Professional experience
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{role} — {company}" } }
+        fields:
+          - { name: period, label: Period, type: string }
+          - { name: role, label: Role, type: string }
+          - { name: company, label: Company, type: string }
+          - { name: summary, label: Summary, type: text }
+      - name: recommendation
+        label: Featured recommendation
+        type: object
+        fields:
+          - { name: quote, label: Recommendation text, type: text }
+          - { name: author, label: Author, type: string }
+          - { name: authorRole, label: Author title, type: string }
+          - { name: href, label: Recommendation document, type: file, options: { media: documents, extensions: [pdf] } }
+      - name: downloads
+        label: Downloads
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{title}" } }
+        fields:
+          - { name: type, label: File type, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: details, label: Details, type: string }
+          - { name: href, label: File, type: file, options: { media: documents, extensions: [pdf] } }
+          - { name: featured, label: Featured, type: boolean }
+
+settings:
+  commit:
+    message: "content: update portfolio from Pages CMS"
+
