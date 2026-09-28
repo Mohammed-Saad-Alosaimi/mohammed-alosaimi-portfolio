@@ -1,19 +1,19 @@
 {
   "site": {
-    "name": "Mohammed Saad Nayaf Al-Osaimi",
+    "name": "Mohammed Saad Alosaimi",
     "portfolioLabel": "Professional Portfolio",
     "eyebrow": "Business Development · Marketing · Corporate Communication",
-    "role": "Business Development & Corporate Communication Leader",
+    "role": "Marketing & Corporate Communication Leader",
     "intro": "I build growth pathways that connect strategy with sales, relationships, and systems—turning ideas and data into measurable business initiatives.",
     "email": "moh.alosaimi15@gmail.com",
     "location": "Jeddah, Saudi Arabia",
     "heroImage": "/assets/profile/profile-hero.png"
   },
   "theme": {
-    "background": "#061628",
-    "surface": "#0d233c",
-    "accent": "#45c5ef",
-    "text": "#f5f8fc"
+    "background": "#080A0F",
+    "surface": "#111722",
+    "accent": "#3B82F6",
+    "text": "#F5F7FA"
   },
   "navItems": [
     {
@@ -62,7 +62,7 @@
   "stats": [
     {
       "value": "97+",
-      "label": "new clients acquired in 2025"
+      "label": "New clients acquired in 2025"
     },
     {
       "value": "SAR 6.96M",
@@ -423,26 +423,29 @@
       "type": "PDF · Training Material",
       "title": "B2B Marketing and Sales Guide",
       "details": "17 pages · Designed & delivered",
-      "href": "/downloads/b2b-marketing-sales-guide.pdf"
+      "href": "/downloads/b2b-marketing-sales-guide.pdf",
+      "featured": false
     },
     {
       "type": "PDF · Workshop",
       "title": "Customer Relationship Management in Odoo CRM",
       "details": "20 pages · Hands-on workshop",
-      "href": "/downloads/crm-odoo-training.pdf"
+      "href": "/downloads/crm-odoo-training.pdf",
+      "featured": false
     },
     {
       "type": "PDF · Official Recommendation",
       "title": "Recommendation Letter — King Abdulaziz University",
       "details": "Faculty of Communication and Media · 2026",
-      "href": "/downloads/kau-recommendation.pdf"
+      "href": "/downloads/kau-recommendation.pdf",
+      "featured": false
     },
     {
       "type": "PDF · Academic Recommendation",
       "title": "Academic Recommendation — Dr. Salman Alzowibi",
       "details": "Marketing Communication Department · King Abdulaziz University",
-      "href": "/downloads/salman-alzowibi-recommendation.pdf"
+      "href": "/downloads/salman-alzowibi-recommendation.pdf",
+      "featured": false
     }
   ]
 }
-
