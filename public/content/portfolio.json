@@ -1,42 +1,20 @@
 {
   "site": {
-    "name": "Mohammed Saad Nayaf Al-Osaimi",
+    "name": "Mohammed Saad Alosaimi",
     "portfolioLabel": "Professional Portfolio",
     "eyebrow": "Business Development · Marketing · Corporate Communication",
-    "role": "Business Development & Corporate Communication Leader",
+    "role": "Marketing & Corporate Communication Leader",
     "intro": "I build growth pathways that connect strategy with sales, relationships, and systems—turning ideas and data into measurable business initiatives.",
     "email": "mohammed.saad.alosaimi@gmail.com",
     "location": "Jeddah, Saudi Arabia",
     "heroImage": "/assets/profile/updated-professional-portrait.jpg"
   },
   "theme": {
-    "background": "#08111F",
-    "surface": "#132B47",
-    "accent": "#2F80ED",
-    "text": "#F5F9FF"
+    "background": "#090909",
+    "surface": "#151515",
+    "accent": "#D4AF37",
+    "text": "#F4F1E8"
   },
-  "socialLinks": [
-    {
-      "platform": "linkedin",
-      "url": "https://www.linkedin.com/in/mohammed-saad-alosaimi-85568b239?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-    },
-    {
-      "platform": "tiktok",
-      "url": "https://www.tiktok.com/@moh_alosaimi?_r=1&_t=ZS-9A6exkxWaNs"
-    },
-    {
-      "platform": "instagram",
-      "url": "https://www.instagram.com/moh_alosaimi15?stkn=MWRpaHBnbjdmaGtnMg=="
-    },
-    {
-      "platform": "facebook",
-      "url": "https://www.facebook.com/share/19nX3XEPA4/"
-    },
-    {
-      "platform": "x",
-      "url": "https://x.com/MohAlosaimi15"
-    }
-  ],
   "navItems": [
     {
       "label": "About",
@@ -79,7 +57,7 @@
     "Business Development",
     "Digital Transformation",
     "Corporate Communication",
-    "B2B"
+    "Integrated Management System"
   ],
   "stats": [
     {
@@ -125,7 +103,7 @@
       "summary": "Established DADCO’s marketing and corporate communication function, organized reporting and performance channels, and connected marketing activity to sales and new-client acquisition.",
       "role": "Project Leadership & Delivery",
       "result": "97+ clients · SAR 6.96M · 50% growth",
-      "icon": "growth",
+      "logo": "/assets/ee07587a83b22ca99ce0297f49c461b4.jpg",
       "className": "project-card project-featured"
     },
     {
@@ -136,7 +114,6 @@
       "role": "Initiator & Project Lead",
       "result": "Qualification completed",
       "logo": "/assets/projects/saudi-made.png",
-      "icon": "saudi-made",
       "className": "project-card project-brand"
     },
     {
@@ -147,7 +124,6 @@
       "role": "Qualification & Certification Lead",
       "result": "ISO 9001",
       "logo": "/assets/projects/iso.png",
-      "icon": "iso",
       "className": "project-card project-brand"
     },
     {
@@ -157,7 +133,7 @@
       "summary": "Enhanced Odoo CRM use, organized leads, opportunities, activities, and reporting, and trained the sales team to improve follow-up quality.",
       "role": "Design, Enablement & Training",
       "result": "Unified follow-up system",
-      "icon": "crm",
+      "logo": "/assets/screenshot-2026-09-28-161417.png",
       "className": "project-card"
     },
     {
@@ -167,7 +143,6 @@
       "summary": "Completed a field study of market conditions, distributors, competitors, and customer needs; translated findings into an actionable market-entry plan.",
       "role": "Methodology, Analysis & Recommendations",
       "result": "36-page analysis",
-      "icon": "research",
       "className": "project-card"
     },
     {
@@ -177,7 +152,6 @@
       "summary": "Designed a focused campaign covering audience definition, targeting journey, channels, KPIs, risks, and lead-to-opportunity conversion.",
       "role": "Strategy & Delivery Plan",
       "result": "Multi-stage campaign",
-      "icon": "campaign",
       "className": "project-card"
     },
     {
@@ -187,7 +161,6 @@
       "summary": "Visited and assessed technical and commercial requirements and converted findings into an actionable commercial opportunity.",
       "role": "Visit, Analysis & Executive Report",
       "result": "Decision-ready report",
-      "icon": "field",
       "className": "project-card"
     }
   ],
@@ -465,42 +438,36 @@
       "period": "Apr 2026 — Present",
       "role": "Business Development Manager",
       "company": "Fast International Petrochemicals Co. Ltd. — DADCO",
-      "logo": "/assets/profile/dadco-brand-mark.png",
       "summary": "Leading organizational development, operational excellence, and digital transformation initiatives; governing ERP and CRM systems and building executive reporting and performance indicators."
     },
     {
       "period": "Nov 2024 — Apr 2026",
       "role": "Marketing & Corporate Communication Officer",
       "company": "DADCO",
-      "logo": "/assets/profile/dadco-brand-mark.png",
       "summary": "Established and developed the marketing function, supported B2B sales and supplier qualification, strengthened digital presence, and led quality and compliance initiatives."
     },
     {
       "period": "May 2024 — Jan 2026",
       "role": "Learning & Development Consultant",
       "company": "King Abdulaziz University — Faculty of Communication and Media",
-      "mark": "KAU",
       "summary": "Designed and delivered B2B and CRM programs and contributed applied content connecting academic curricula with labour-market needs."
     },
     {
       "period": "2018 — 2024",
       "role": "Independent Marketing & Business Development Consultant",
       "company": "Multiple projects and engagements",
-      "mark": "MS",
       "summary": "Marketing and brand strategies, event and delegation management, identity development, communication materials, and campaign delivery."
     },
     {
       "period": "Jan 2023 — Sep 2024",
       "role": "Sales Consultant",
       "company": "Damas Jewellery",
-      "mark": "DJ",
       "summary": "Managed store operations, led customer experience, and developed sales practices to meet targets."
     },
     {
       "period": "Jan 2015 — Jul 2017",
       "role": "Sales Liaison Coordinator",
       "company": "Saudi Binladin Group — Bahra Cables",
-      "mark": "BC",
       "summary": "Coordinated sales and operations, followed order cycles, and maintained B2B customer relationships."
     }
   ],
@@ -522,37 +489,43 @@
       "type": "PDF · Training Material",
       "title": "B2B Marketing and Sales Guide",
       "details": "17 pages · Designed & delivered",
-      "href": "/downloads/b2b-marketing-sales-guide.pdf"
+      "href": "/downloads/b2b-marketing-sales-guide.pdf",
+      "featured": false
     },
     {
       "type": "PDF · Workshop",
       "title": "Customer Relationship Management in Odoo CRM",
       "details": "20 pages · Hands-on workshop",
-      "href": "/downloads/crm-odoo-training.pdf"
+      "href": "/downloads/crm-odoo-training.pdf",
+      "featured": false
     },
     {
       "type": "PDF · Sales Training",
       "title": "Organic Gemstones: Sales Knowledge Module",
       "details": "Damas sales-team training content",
-      "href": "/downloads/damas-organic-gemstones.pdf"
+      "href": "/downloads/damas-organic-gemstones.pdf",
+      "featured": false
     },
     {
       "type": "PDF · Sales Training",
       "title": "Gemstone Knowledge: Comprehensive Sales Reference",
       "details": "Damas customer-experience and product-storytelling content",
-      "href": "/downloads/damas-gemstone-reference.pdf"
+      "href": "/downloads/damas-gemstone-reference.pdf",
+      "featured": false
     },
     {
       "type": "PDF · Official Recommendation",
       "title": "Recommendation Letter — King Abdulaziz University",
       "details": "Faculty of Communication and Media · 2026",
-      "href": "/downloads/kau-recommendation.pdf"
+      "href": "/downloads/kau-recommendation.pdf",
+      "featured": false
     },
     {
       "type": "PDF · Academic Recommendation",
       "title": "Academic Recommendation — Dr. Salman Alzowibi",
       "details": "Marketing Communication Department · King Abdulaziz University",
-      "href": "/downloads/salman-alzowibi-recommendation.pdf"
+      "href": "/downloads/salman-alzowibi-recommendation.pdf",
+      "featured": false
     }
   ]
 }
